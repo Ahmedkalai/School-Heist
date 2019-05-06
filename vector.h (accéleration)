@@ -1,0 +1,42 @@
+#ifndef VECTOR_H
+
+#define VECTOR_H
+
+#include <SDL/SDL.h>
+
+struct Deplacement
+{
+	
+Sint16 angle;
+
+	Sint16 magnitude;
+
+};
+
+typedef struct Deplacement Deplacement;
+
+
+struct Acceleration
+{
+	
+Sint16 ax;
+
+Sint16 ay;
+
+};
+
+typedef struct Acceleration Acceleration;
+
+
+struct Vitesse
+{
+	
+Sint16 vx;
+
+Sint16 vy;
+
+};
+
+typedef struct Vitesse Vitesse;
+
+#endif
